@@ -19,7 +19,7 @@ import dataretrieval.nwis as nwis
 import pandas as pd
 import os 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyAanrQp24DpsAQWPfVCBRfjP9NK8pya44k")  # Replace with your actual API key
+
 
 # Initialize the Gemini model (using Gemini Flash for faster responses)
 model = genai.GenerativeModel("gemini-2.0-flash")
